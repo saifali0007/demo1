@@ -10,4 +10,10 @@ public class MyController {
     public String getData(){
         return "Docker Example is goody";
     }
+
+    @GetMapping("/test-dockers")
+
+    public String getDatas(){
+        return "Docker Example";
+    }
 }

@@ -8,6 +8,6 @@ public class MyController {
     @GetMapping("/test-docker")
 
     public String getData(){
-        return "Docker Example";
+        return "Docker Example is goody";
     }
 }
